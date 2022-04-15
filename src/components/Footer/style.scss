@@ -4,6 +4,10 @@ footer {
   scroll-snap-align: start;
   background: #2e0c31;
   display: flex;
+  @media screen and (max-width: 900px) {
+    flex-direction: column;
+    align-items: center;
+  }
   .footer-container {
     flex: 1;
     h2 {
@@ -22,6 +26,19 @@ footer {
         width: 47.5px;
         height: 3px;
         background-color: #fff2e4;
+
+        @media screen and (max-width: 900px) {
+          left: 50%;
+          transform: translateX(-50%);
+        }
+      }
+
+      @media screen and (max-width: 900px) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 36px;
+        line-height: 163.1%;
       }
     }
     span {
@@ -33,11 +50,18 @@ footer {
       display: block;
 
       color: #fff2e4;
+      @media screen and (max-width: 900px) {
+        font-size: 20px;
+        line-height: 163.1%;
+      }
     }
     div {
       gap: 50px;
       margin-top: 60px;
       display: flex;
+      @media screen and (max-width: 900px) {
+        gap: 42px;
+      }
       a {
         display: block;
       }
