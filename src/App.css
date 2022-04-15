@@ -23,3 +23,7 @@ a {
 /* * {
   border: 1px solid;
 } */
+body {
+  height: 100vh;
+  overflow: hidden;
+}
