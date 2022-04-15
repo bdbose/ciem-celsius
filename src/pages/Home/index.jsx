@@ -9,6 +9,7 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
 import Navbar from '../../components/Navbar';
+import Footer from '../../components/Footer';
 
 const card = [
   {
@@ -33,7 +34,7 @@ const card = [
     title: 'Sports',
   },
   {
-    text: 'Pitch, Detch, Group Discussion',
+    text: 'Pitch, Debat, Group Discussion',
     img: 'https://carrilloconsultants.com/wp-content/uploads/2015/07/Business-group-talking-e1437160717447.jpg',
     backgroundColor: '#C7BD16',
     link: '/technical/#business',
@@ -84,6 +85,7 @@ const Home = () => {
           </Slider>
         </div>
       </section>
+      <Footer />
     </div>
   );
 };

@@ -1,0 +1,50 @@
+footer {
+  width: calc(100% - 5vw);
+  padding: 50px 2.5vw;
+  scroll-snap-align: start;
+  background: #2e0c31;
+  display: flex;
+  .footer-container {
+    flex: 1;
+    h2 {
+      font-family: 'Rajdhani';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 36px;
+      line-height: 163.1%;
+      color: #fff2e4;
+      position: relative;
+      &:after {
+        bottom: 0;
+        left: 0;
+        content: '';
+        position: absolute;
+        width: 47.5px;
+        height: 3px;
+        background-color: #fff2e4;
+      }
+    }
+    span {
+      font-family: 'Rajdhani';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 163.1%;
+      display: block;
+
+      color: #fff2e4;
+    }
+    div {
+      gap: 50px;
+      margin-top: 60px;
+      display: flex;
+      a {
+        display: block;
+      }
+    }
+    #icon {
+      width: 230px;
+      height: 134px;
+    }
+  }
+}

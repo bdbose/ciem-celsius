@@ -1,6 +1,5 @@
 .home-wrapper {
   position: relative;
-  scroll-snap-points-y: repeat(100vh);
   height: 100vh;
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
@@ -239,6 +238,8 @@
   width: 450px;
   border-radius: 10px;
   overflow: hidden;
+  transition: 0.3s linear;
+
   @media screen and (max-width: 1100px) {
     width: 80%;
     margin: auto;
