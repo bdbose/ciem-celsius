@@ -22,7 +22,7 @@ const Navbar = () => {
             <a href={ele.route} key={ele.name}>
               <span
                 className={
-                  window.location.href.includes(ele.route) && 'elements-active'
+                  window.location.pathname === ele.route && 'elements-active'
                 }>
                 {ele.name}
               </span>

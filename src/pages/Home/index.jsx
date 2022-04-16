@@ -34,9 +34,9 @@ const card = [
     title: 'Sports',
   },
   {
-    text: 'Pitch, Debat, Group Discussion',
-    img: 'https://carrilloconsultants.com/wp-content/uploads/2015/07/Business-group-talking-e1437160717447.jpg',
-    backgroundColor: '#C7BD16',
+    text: 'Pitch, Debate, Group Discussion',
+    img: 'https://media.istockphoto.com/photos/business-people-in-seminar-at-auditorium-picture-id959533584?k=20&m=959533584&s=612x612&w=0&h=-HyUuwy5eEoIw_w8vjNRV23l6FP1nAkT40UYWqz1WgA=',
+    backgroundColor: '#455966',
     link: '/technical/#business',
     title: 'Business',
   },
@@ -51,6 +51,7 @@ const Home = () => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 2000,
+    centerMode: true,
   };
   return (
     <div className='home-wrapper'>
