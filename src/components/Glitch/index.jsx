@@ -10,3 +10,5 @@ const Glitch = ({ text }) => {
     </div>
   );
 };
+
+export default Glitch;

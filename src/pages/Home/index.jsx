@@ -99,8 +99,10 @@ const EventCard = ({ img, backgroundColor, text, title, link }) => {
         background: backgroundColor,
       }}>
       <div className='event-details'>
-        <h2>{title}</h2>
-        <p>{text}</p>
+        <div className='event-data'>
+          <h2>{title}</h2>
+          <p>{text}</p>
+        </div>
         <div
           className='see-more'
           onClick={() => {
