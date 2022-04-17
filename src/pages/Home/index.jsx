@@ -3,6 +3,7 @@ import './style.scss';
 
 import { ReactComponent as Fire } from '../../assets/svg/fire.svg';
 import { ReactComponent as ArrowRight } from '../../assets/svg/arrow-right.svg';
+import CIEM from '../../assets/Image/ciem.png';
 
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
@@ -10,6 +11,7 @@ import 'slick-carousel/slick/slick-theme.css';
 
 import Navbar from '../../components/Navbar';
 import Footer from '../../components/Footer';
+import ImgSlider from '../../components/ImgSlider';
 
 const card = [
   {
@@ -84,6 +86,26 @@ const Home = () => {
               return <EventCard {...ele} />;
             })}
           </Slider>
+        </div>
+      </section>
+      <section className='ciem-wrapper'>
+        <ImgSlider />
+        <div className='ciem-details'>
+          <div className='ciem-header'>
+            <span>Organised by </span>
+            <img src={CIEM} alt='logo' />
+          </div>
+          <p>
+            CIEM, a leading institute in Eastern India is combating Covid-19
+            situation by following certain best practices. Online classes
+            through several online video-conference platforms have been arranged
+            from starting of the lockdown. CIEM also continues the academic
+            calendar without any disruption despite the challenging times. The
+            Students of CIEM are in regular connection with the institute
+            regarding their health, socio-economic conditions besides the
+            regular studies during the Pandemic.
+          </p>
+          <a href='https://ciem.ac.in/'>Know More</a>
         </div>
       </section>
       <Footer />

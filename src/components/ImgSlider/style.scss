@@ -1,0 +1,23 @@
+.img-slider-container {
+  position: relative;
+  display: flex;
+  @media screen and (max-width: 1100px) {
+    display: none;
+  }
+  .image-slider-wrapper {
+    row-gap: 30px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+    .block {
+      width: 150px;
+      height: 400px;
+      border-radius: 150px;
+      position: absolute;
+      transition: 4s linear;
+      background-position: center;
+      background-size: cover;
+    }
+  }
+}
