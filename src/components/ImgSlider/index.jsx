@@ -16,6 +16,7 @@ const ImgSlider = () => {
   const parentRef2 = useRef();
   let c = 0;
   const blockMaker = () => {
+    const innerHeight = window.innerHeight;
     const block = document.createElement('div');
     block.className = 'block';
     block.style.top = '-400px';
@@ -26,7 +27,7 @@ const ImgSlider = () => {
     }
     parentRef.current.appendChild(block);
     setTimeout(() => {
-      block.style.top = '100vh';
+      block.style.top = innerHeight + 'px';
     }, 200);
     setTimeout(() => {
       parentRef.current.removeChild(block);
@@ -34,7 +35,7 @@ const ImgSlider = () => {
 
     const block1 = document.createElement('div');
     block1.className = 'block';
-    block1.style.top = '100vh';
+    block1.style.top = innerHeight + 'px';
     block1.style.backgroundImage = `url(${arrImage[c]})`;
 
     parentRef1.current.appendChild(block1);
@@ -52,7 +53,7 @@ const ImgSlider = () => {
 
     parentRef2.current.appendChild(block2);
     setTimeout(() => {
-      block2.style.top = '100vh';
+      block2.style.top = innerHeight + 'px';
     }, 200);
     setTimeout(() => {
       parentRef2.current.removeChild(block2);
@@ -68,11 +69,11 @@ const ImgSlider = () => {
       <div
         className='image-slider-wrapper'
         ref={parentRef1}
-        style={{ left: '180px' }}></div>
+        style={{ left: '196px' }}></div>
       <div
         className='image-slider-wrapper'
         ref={parentRef2}
-        style={{ left: '360px' }}></div>
+        style={{ left: 'calc(196px + 196px)' }}></div>
     </div>
   );
 };

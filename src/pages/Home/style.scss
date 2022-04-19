@@ -74,7 +74,7 @@
       left: 0;
       width: 100%;
       @media screen and (max-width: 900px) {
-        height: 100px;
+        height: 150px;
         object-fit: cover;
       }
     }
@@ -107,7 +107,7 @@
         transition: 0.3s linear;
         @media screen and (max-width: 900px) {
           flex: 1;
-          font-size: 14px;
+          font-size: 16px;
           line-height: 18px;
           height: 42px;
         }
@@ -193,7 +193,7 @@
     .slick-dots {
       bottom: -90px;
       li {
-        width: 89px;
+        width: 70px;
         height: 6px;
         @media screen and (max-width: 900px) {
           width: 50px;
