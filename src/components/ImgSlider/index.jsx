@@ -2,10 +2,10 @@ import React, { useEffect, useRef } from 'react';
 import './style.scss';
 
 const arrImage = [
-  'https://scontent.fccu3-1.fna.fbcdn.net/v/t39.30808-6/278710117_1114342585787644_373223249236162471_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=730e14&_nc_ohc=aOVBwaM86q4AX8vbd-d&_nc_ht=scontent.fccu3-1.fna&oh=00_AT8ny4jjuwY956KSycFTFhO_0OvFFckJ7BdRQrmGd1TNrg&oe=626155CA',
-  'https://scontent.fccu3-1.fna.fbcdn.net/v/t39.30808-6/278671727_1114342605787642_7774701842101605071_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=730e14&_nc_ohc=plz8ye2xiUYAX8yAbt-&tn=_sgjPNNZA0k27E-U&_nc_ht=scontent.fccu3-1.fna&oh=00_AT-HAzc2fzrxPCFlx91bT6BD0V9gxrjpiil_OhN0Ubh9KQ&oe=62617438',
-  'https://scontent.fccu3-1.fna.fbcdn.net/v/t39.30808-6/275610098_1091311344757435_3424459834399349038_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=730e14&_nc_ohc=90ZwenOlUTsAX8LiAxq&_nc_ht=scontent.fccu3-1.fna&oh=00_AT-6Z_SEpw85q5EjhLC-nnqamWzOYW4fXEI0J7ovB4wpSA&oe=62608F52',
-  'https://scontent.fccu3-1.fna.fbcdn.net/v/t39.30808-6/270492475_1046892169199353_4735370121498668230_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=0sBMaOxP4BgAX8karqA&_nc_ht=scontent.fccu3-1.fna&oh=00_AT8Fny6uv7ahpMZTtmTXiZJGe8khHfikbyHiWRPkKEMAew&oe=626232C2',
+  'https://images.pexels.com/photos/3861976/pexels-photo-3861976.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+  'https://images.pexels.com/photos/4815143/pexels-photo-4815143.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
+  'https://images.pexels.com/photos/2007647/pexels-photo-2007647.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+  'https://images.pexels.com/photos/2582937/pexels-photo-2582937.jpeg',
   'https://images.pexels.com/photos/2079432/pexels-photo-2079432.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
   'https://images.pexels.com/photos/3059052/pexels-photo-3059052.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
 ];

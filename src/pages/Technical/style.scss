@@ -27,8 +27,17 @@
     gap: 20px;
     width: 90%;
     margin: 65px auto;
+    @media screen and (max-width: 1000px) {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    @media screen and (max-width: 800px) {
+      grid-template-columns: 1fr;
+    }
+
     .card-wrapper {
-      width: 100%;
+      width: calc(100% - 40px);
+      padding: 20px;
       height: 280px;
       display: flex;
       align-items: center;
@@ -43,6 +52,11 @@
       text-align: center;
       background-position: center;
       background-size: cover;
+      transition: 0.3s ease-in-out;
+      &:hover {
+        transform: scale(1.01);
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.359);
+      }
     }
   }
 }

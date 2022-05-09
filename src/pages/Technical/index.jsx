@@ -17,27 +17,27 @@ const dataTechnical = [
     url: 'hackathon',
   },
   {
-    backgroundImg: 'https://i.ibb.co/vJLB3vY/Group-1935.png',
+    backgroundImg: 'https://i.ibb.co/hyNV84k/Group-1925.png',
     title: 'GRIP IT',
     url: 'grip-it',
   },
   {
-    backgroundImg: '',
+    backgroundImg: 'https://i.ibb.co/xjGmvDH/Group-1935-1.png',
     title: 'NITRO CHARGE',
     url: 'nitro-charge',
   },
   {
-    backgroundImg: '',
+    backgroundImg: 'https://i.ibb.co/t2mmLxN/Group-1922.png',
     title: 'CIRCUIT BUILDING',
     url: 'circuit-building',
   },
   {
-    backgroundImg: '',
+    backgroundImg: 'https://i.ibb.co/VxxmvnF/Group-1921.png',
     title: 'ROBO SOCCER',
     url: 'robo-soccer',
   },
   {
-    backgroundImg: '',
+    backgroundImg: 'https://i.ibb.co/phbkd56/Group-1918.png',
     title: 'CODEDRIFT 2.0',
     url: 'codedrift',
   },
