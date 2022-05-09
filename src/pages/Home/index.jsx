@@ -73,7 +73,7 @@ const Home = () => {
           <button className='know-more-btn'>Know More</button>
         </div>
         <img
-          src={'https://i.ibb.co/Px5Wmrh/Group-1-2-1-1.png'}
+          src={'https://i.ibb.co/nQQgV2B/Group-1937.png'}
           alt='banner'
           id='banner-image'
         />
