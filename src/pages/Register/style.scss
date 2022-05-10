@@ -1,0 +1,38 @@
+.event-wrapper {
+  height: 100vh;
+  overflow-y: auto;
+  background: radial-gradient(
+      50% 50% at 50% 50%,
+      #45124a 0%,
+      rgba(46, 12, 49, 0) 100%
+    ),
+    #2e0c31;
+  .event-container {
+    padding-top: 17vh;
+    width: 90%;
+    margin: auto;
+    .event-img {
+      width: calc(100% - 40px);
+      padding: 20px;
+      height: 280px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 10px;
+      font-family: 'Aquire';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 48px;
+      line-height: 42px;
+      color: #ffffff;
+      text-align: center;
+      background-position: center;
+      background-size: cover;
+      transition: 0.3s ease-in-out;
+      &:hover {
+        transform: scale(1.01);
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.359);
+      }
+    }
+  }
+}
