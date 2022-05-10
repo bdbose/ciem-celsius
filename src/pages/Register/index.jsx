@@ -10,7 +10,7 @@ import Footer from '../../components/Footer';
 const RegisterEvent = () => {
   const { id } = useParams();
   return (
-    <div className='event-wrapper'>
+    <div className='register-event-wrapper'>
       <Navbar />
       <div className='event-container'>
         {EventList.map((ele) => {
@@ -32,11 +32,19 @@ const RegisterEvent = () => {
                       <h3>Date:</h3>
                       <span>{ele.date}</span>
                     </div>
-                    <div>
-                      <h3>Fee:</h3>
-                      <span>{ele.fee}</span>
+                    <div
+                      style={{
+                        display: 'flex',
+                        alignItems: 'center',
+                        gap: '16px',
+                      }}>
+                      <h3>Prize:</h3>
+                      <span>₹ {ele.prize}</span>
                     </div>
                   </div>
+                  <h3>Fee:</h3>
+                  <span>{ele.fee}</span>
+
                   <a href={ele.form}>Register</a>
                 </div>
               </div>

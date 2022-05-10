@@ -3,9 +3,30 @@
     "title": "PC GAMING",
     "img": "https://i.ibb.co/YTj77CW/Frame-20.png",
     "description": "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before the final copy is available.",
-    "fee": "",
-    "date": "",
+    "fee": "Valorant / CSGO - ₹500 (per team) Fifa - ₹150 (per person)",
+    "date": "28th May, 29th May(11:00 am - 05:00 pm)",
     "form": "/",
-    "slug": "pc-gaming"
+    "slug": "pc-gaming",
+    "prize": 12000
+  },
+  {
+    "title": "Hackathon",
+    "img": "https://i.ibb.co/YTj77CW/Frame-20.png",
+    "description": "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before the final copy is available.",
+    "fee": "Team (max 6 person) - ₹300",
+    "date": "28th May (09:00 am - 07:00 pm)",
+    "form": "/",
+    "slug": "hackathon",
+    "prize": 10000
+  },
+  {
+    "title": "Grip It",
+    "img": "https://i.ibb.co/YTj77CW/Frame-20.png",
+    "description": "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before the final copy is available.",
+    "fee": "Team (max 6 person) - ₹200",
+    "date": "27th May, 28th May, 29th May (10:00 am - 05:00 pm)",
+    "form": "/",
+    "slug": "grip-it",
+    "prize": 9000
   }
 ]

@@ -22,11 +22,11 @@ const card = [
     title: 'Technical',
   },
   {
-    text: 'Singing, Dancing, Fashion Show',
-    img: 'https://scontent.fccu3-1.fna.fbcdn.net/v/t1.6435-9/56910214_2311259385813635_4562127443065831424_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=EznkL_Lib0oAX8zOIBv&_nc_oc=AQlFii74Ju_0sxF_ftthBT05gV88WPgghHo2hktDT6t_ALavs1pltBf7AMQIMnR6Mvo&_nc_ht=scontent.fccu3-1.fna&oh=00_AT_Xkso1_v_t40ElwWoR9pp5aawQF37u1lOBoRmxs8I2Vw&oe=627EC1E6',
+    text: 'Teasure Hunt',
+    img: 'https://media.istockphoto.com/vectors/find-treasure-hunt-money-map-vector-id485668170?k=20&m=485668170&s=612x612&w=0&h=QNiYR5oScdxwfNGpOa6PoTPP_ImQvEw5qDkrgRJpl1k=',
     backgroundColor: '#B9401A',
-    link: '/cultural',
-    title: 'Cultural',
+    link: '/register/fun-activities',
+    title: 'Fun Activity',
   },
   {
     text: 'Football, Cricket, Badminton, VolleyBall',
