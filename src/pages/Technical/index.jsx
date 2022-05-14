@@ -28,7 +28,7 @@ const dataTechnical = [
   },
   {
     backgroundImg: 'https://i.ibb.co/dLD7qjm/Group-1922.png',
-    title: 'CIRCUIT BUILDING',
+    title: 'CIRCUIT LIBERTE',
     url: 'circuit-building',
   },
   {
