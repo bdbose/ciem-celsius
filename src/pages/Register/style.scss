@@ -61,6 +61,9 @@
         margin-top: 12px;
         display: flex;
         align-items: center;
+        @media screen and (max-width: 800px) {
+          flex-direction: column;
+        }
       }
       .event-date {
         gap: 16px;

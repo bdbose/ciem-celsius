@@ -12,6 +12,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/technical' element={<Technical />} />
+          <Route path='/sports' element={<ComingSoon />} />
           <Route path='/register/:id' element={<RegisterEvent />} />
           <Route path='/coming-soon' element={<ComingSoon />} />
         </Routes>

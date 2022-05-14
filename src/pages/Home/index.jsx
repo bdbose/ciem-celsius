@@ -69,7 +69,14 @@ const Home = () => {
           looking forward to see you apart of this grand event.
         </p>
         <div className='button-wrapper'>
-          <button>Register to events</button>
+          <button
+            onClick={() => {
+              document
+                .getElementsByClassName('home-wrapper')[0]
+                .scrollBy(0, 500);
+            }}>
+            Register to events
+          </button>
           <button className='know-more-btn'>Know More</button>
         </div>
         <img
