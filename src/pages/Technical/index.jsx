@@ -58,7 +58,7 @@ const dataTechnical = [
   },
   {
     backgroundImg: 'https://i.ibb.co/M7DKKj0/Group-1947.png',
-    title: 'TRESURE HUNT',
+    title: 'TREASURE HUNT',
     url: 'fun-activity',
   },
   {

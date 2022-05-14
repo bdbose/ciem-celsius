@@ -15,6 +15,7 @@ function App() {
           <Route path='/sports' element={<ComingSoon />} />
           <Route path='/register/:id' element={<RegisterEvent />} />
           <Route path='/coming-soon' element={<ComingSoon />} />
+          <Route path='/*' element={<ComingSoon />} />
         </Routes>
       </BrowserRouter>
     </div>
