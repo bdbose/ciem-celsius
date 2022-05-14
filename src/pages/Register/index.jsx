@@ -27,24 +27,26 @@ const RegisterEvent = () => {
                 <div className='event-details'>
                   <h3>
                     Description: &nbsp;
-                    <span
-                      style={{
-                        cursor: 'pointer',
-                        textDecoration: 'underline',
-                      }}
-                      onClick={() => {
-                        window.open('/coming-soon', '_blank');
-                      }}>
-                      Click Here
-                    </span>
+                    {!ele.data && (
+                      <span
+                        style={{
+                          cursor: 'pointer',
+                          textDecoration: 'underline',
+                        }}
+                        onClick={() => {
+                          window.open('/coming-soon', '_blank');
+                        }}>
+                        Click Here
+                      </span>
+                    )}
                   </h3>
-
+                  {ele.data && <p>{ele.data}</p>}
                   <h3>
                     Date: &nbsp;<span>{ele.date}</span>
                   </h3>
 
                   <h3>
-                    Prize Money:&nbsp; &nbsp;
+                    Pool Prize:&nbsp; &nbsp;
                     <span className='spl-txt'>₹ {ele.prize}</span>
                   </h3>
 
