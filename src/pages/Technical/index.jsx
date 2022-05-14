@@ -7,92 +7,87 @@ import './style.scss';
 
 const dataTechnical = [
   {
-    backgroundImg: 'https://i.ibb.co/YTj77CW/Frame-20.png',
+    backgroundImg: 'https://i.ibb.co/sWVFRb2/Frame-1.png',
     title: 'PC GAMING',
     url: 'pc-gaming',
   },
   {
-    backgroundImg: 'https://i.ibb.co/vJLB3vY/Group-1935.png',
+    backgroundImg: 'https://i.ibb.co/T2Sxbfk/Group-1935-1.png',
     title: 'HACKATHON',
     url: 'hackathon',
   },
   {
-    backgroundImg: 'https://i.ibb.co/hyNV84k/Group-1925.png',
+    backgroundImg: 'https://i.ibb.co/QH8ZGtq/Group-1925.png',
     title: 'GRIP IT',
     url: 'grip-it',
   },
   {
-    backgroundImg: 'https://i.ibb.co/xjGmvDH/Group-1935-1.png',
+    backgroundImg: 'https://i.ibb.co/tzcFP4Q/Group-1935-2.png',
     title: 'NITRO CHARGE',
     url: 'nitro-charge',
   },
   {
-    backgroundImg: 'https://i.ibb.co/t2mmLxN/Group-1922.png',
+    backgroundImg: 'https://i.ibb.co/dLD7qjm/Group-1922.png',
     title: 'CIRCUIT BUILDING',
     url: 'circuit-building',
   },
   {
-    backgroundImg: 'https://i.ibb.co/VxxmvnF/Group-1921.png',
+    backgroundImg: 'https://i.ibb.co/8XwQsss/Group-1921.png',
     title: 'ROBO SOCCER',
     url: 'robo-soccer',
   },
   {
-    backgroundImg: 'https://i.ibb.co/phbkd56/Group-1918.png',
+    backgroundImg: 'https://i.ibb.co/3RSHMb7/Group-1918-3.png',
     title: 'CODEDRIFT 2.0',
     url: 'codedrift',
   },
   {
-    backgroundImg: '',
+    backgroundImg: 'https://i.ibb.co/QffW2jY/Group-1944.png',
     title: 'BRIDGE BUILDING',
-    url: 'bride-building',
+    url: 'bridge-building',
   },
   {
-    backgroundImg: '',
+    backgroundImg: 'https://i.ibb.co/1JxPb8Z/Group-1945.png',
     title: 'LINE OF CONTROL',
     url: 'line-of-control',
   },
   {
-    backgroundImg: '',
+    backgroundImg: 'https://i.ibb.co/JjKf0Wq/Group-1946.png',
     title: 'MODEL DISPLAY',
     url: 'model-display',
   },
   {
-    backgroundImg: '',
-    title: 'FUN ACTIVITY',
+    backgroundImg: 'https://i.ibb.co/M7DKKj0/Group-1947.png',
+    title: 'TRESURE HUNT',
     url: 'fun-activity',
   },
   {
-    backgroundImg: '',
+    backgroundImg: 'https://i.ibb.co/QJzB6R0/Group-1948.png',
     title: 'TECH QUIZ',
     url: 'tech-quiz',
   },
   {
-    backgroundImg: '',
+    backgroundImg: 'https://i.ibb.co/y6GBTCR/Group-1949-3.png',
     title: 'MOBILE GAMING',
     url: 'mobile-gaming',
-  },
-  {
-    backgroundImg: '',
-    title: 'SEMINAR',
-    url: 'seminar',
   },
 ];
 
 const dataBusiness = [
   {
-    backgroundImg: '',
+    backgroundImg: 'https://i.ibb.co/NLdBcTw/Group-1951-1.png',
     title: 'PITCH YOUR PRODUCT',
     url: 'pitch-your-product',
   },
   {
-    backgroundImg: '',
-    title: 'DEBATE',
-    url: 'debate',
-  },
-  {
-    backgroundImg: '',
+    backgroundImg: 'https://i.ibb.co/xgJRY2c/Group-1953.png',
     title: 'GROUP DISCUSSION',
     url: 'group-discussion',
+  },
+  {
+    backgroundImg: 'https://i.ibb.co/hZjrsF1/Group-1954.png',
+    title: 'Public Speaking',
+    url: 'public-speaking',
   },
 ];
 

@@ -25,27 +25,38 @@ const RegisterEvent = () => {
                   <Glitch text={ele.title} />
                 </div>
                 <div className='event-details'>
-                  <h3>Description:</h3>
-                  <p>{ele.description}</p>
-                  <div className='event-date'>
-                    <div>
-                      <h3>Date:</h3>
-                      <span>{ele.date}</span>
-                    </div>
-                    <div
+                  <h3>
+                    Description: &nbsp;
+                    <span
                       style={{
-                        display: 'flex',
-                        alignItems: 'center',
-                        gap: '16px',
+                        cursor: 'pointer',
+                        textDecoration: 'underline',
+                      }}
+                      onClick={() => {
+                        window.open('/coming-soon', '_blank');
                       }}>
-                      <h3>Prize:</h3>
-                      <span>₹ {ele.prize}</span>
-                    </div>
-                  </div>
+                      Click Here
+                    </span>
+                  </h3>
+
+                  <h3>
+                    Date: &nbsp;<span>{ele.date}</span>
+                  </h3>
+
+                  <h3>
+                    Prize Money:&nbsp; &nbsp;
+                    <span className='spl-txt'>₹ {ele.prize}</span>
+                  </h3>
+
                   <h3>Fee:</h3>
                   <span>{ele.fee}</span>
-
-                  <a href={ele.form}>Register</a>
+                  <h3>
+                    Contact: &nbsp;
+                    <span>{ele.contact}</span>
+                  </h3>
+                  <a target='_blank' href={ele.form} rel='noreferrer'>
+                    Register
+                  </a>
                 </div>
               </div>
             );

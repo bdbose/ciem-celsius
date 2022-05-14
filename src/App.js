@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import Technical from './pages/Technical';
 import RegisterEvent from './pages/Register';
+import ComingSoon from './pages/soon';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/technical' element={<Technical />} />
           <Route path='/register/:id' element={<RegisterEvent />} />
+          <Route path='/coming-soon' element={<ComingSoon />} />
         </Routes>
       </BrowserRouter>
     </div>

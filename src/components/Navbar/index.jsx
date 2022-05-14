@@ -5,7 +5,7 @@ import { ReactComponent as Menu } from '../../assets/svg/menu.svg';
 
 const Items = [
   { name: 'Home', route: '/' },
-  // { name: 'Sports', route: '/sports' },
+  { name: 'Sports', route: '/sports' },
   { name: 'Technical', route: '/technical' },
   // { name: 'Cultural', route: '/cultural' },
   { name: 'About Us', route: '/about-us' },
@@ -15,7 +15,9 @@ const Items = [
 const Navbar = () => {
   return (
     <div className='navbar-wrapper'>
-      <Icon id='icon' />
+      <a href='/'>
+        <Icon id='icon' />
+      </a>
       <div className='navbar-elements'>
         {Items.map((ele) => {
           return (

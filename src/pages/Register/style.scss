@@ -15,13 +15,26 @@
       display: flex;
       margin: 50px auto;
       gap: 40px;
+      @media screen and (max-width: 800px) {
+        flex-direction: column;
+      }
     }
     .event-details {
       width: 60%;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-
+      @media screen and (max-width: 800px) {
+        width: 100%;
+      }
+      .spl-txt {
+        font-family: 'Aquire';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 35px;
+        color: #ffffff;
+      }
       span {
         font-family: 'Rajdhani';
         font-style: normal;
@@ -45,6 +58,9 @@
         font-size: 32px;
         line-height: 41px;
         color: #ffffff;
+        margin-top: 12px;
+        display: flex;
+        align-items: center;
       }
       .event-date {
         gap: 16px;
@@ -90,6 +106,9 @@
       background-size: cover;
       transition: 0.3s ease-in-out;
       margin: 0;
+      @media screen and (max-width: 800px) {
+        width: calc(100% - 40px);
+      }
       &:hover {
         transform: scale(1.01);
         box-shadow: 0 0 20px rgba(0, 0, 0, 0.359);

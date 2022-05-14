@@ -1,32 +1,178 @@
 [
   {
     "title": "PC GAMING",
-    "img": "https://i.ibb.co/YTj77CW/Frame-20.png",
-    "description": "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before the final copy is available.",
+    "img": "https://i.ibb.co/sWVFRb2/Frame-1.png",
+    "description": "",
     "fee": "Valorant / CSGO - ₹500 (per team) Fifa - ₹150 (per person)",
     "date": "28th May, 29th May(11:00 am - 05:00 pm)",
-    "form": "/",
+    "form": "https://forms.gle/oftvL3F43wfDDkhM6",
     "slug": "pc-gaming",
-    "prize": 12000
+    "prize": 12000,
+    "contact": "6291322505 (Sharmistha) , 7439373966 (Arkaprabha)"
   },
   {
     "title": "Hackathon",
-    "img": "https://i.ibb.co/YTj77CW/Frame-20.png",
-    "description": "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before the final copy is available.",
-    "fee": "Team (max 6 person) - ₹300",
+    "img": "https://i.ibb.co/T2Sxbfk/Group-1935-1.png",
+    "description": "",
+    "fee": "Team (max 6 persons) - ₹300",
     "date": "28th May (09:00 am - 07:00 pm)",
-    "form": "/",
+    "form": "https://forms.gle/aPfZXFbt76Xf4hFA7",
     "slug": "hackathon",
-    "prize": 10000
+    "prize": 10000,
+    "contact": "8017077650 (Bidipto), 7890016706(Agnibesh)"
   },
   {
     "title": "Grip It",
-    "img": "https://i.ibb.co/YTj77CW/Frame-20.png",
-    "description": "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before the final copy is available.",
-    "fee": "Team (max 6 person) - ₹200",
+    "img": "https://i.ibb.co/QH8ZGtq/Group-1925.png",
+    "description": "",
+    "fee": "Team (max 6 persons) - ₹200",
     "date": "27th May, 28th May, 29th May (10:00 am - 05:00 pm)",
-    "form": "/",
+    "form": "https://forms.gle/rY2KSGvCfVLs8JFB7",
     "slug": "grip-it",
-    "prize": 9000
+    "prize": 9000,
+    "contact": "7003536489 [Ayush], 8276833003 [Kaushiki]"
+  },
+  {
+    "title": "Nitro Charge",
+    "img": "https://i.ibb.co/tzcFP4Q/Group-1935-2.png",
+    "description": "",
+    "fee": "Team (max 6 persons) - ₹250",
+    "date": "27th May, 28th May, 29th May (10:00 am - 05:00 pm)",
+    "form": "https://forms.gle/kNhkFdUWTQ7fMyzq8",
+    "slug": "nitro-charge",
+    "prize": 16000,
+    "contact": "8777758289 (Ahana) , 9674332560 (Sinjini)"
+  },
+  {
+    "title": "Circuit Building",
+    "img": "https://i.ibb.co/dLD7qjm/Group-1922.png",
+    "description": "https://docs.google.com/document/d/1egP4dcrNghr0fHzIHK_BoS3R8JdK6O-CWgKKHGp1CpU/edit#",
+    "fee": "Team (max 6 persons) - ₹150",
+    "date": "27th May, 28th May (12:00 pm - 03:00 pm)",
+    "form": "https://forms.gle/zXyrmDKkH3SNZ12D7",
+    "slug": "circuit-building",
+    "prize": 3000,
+    "contact": "9475600521 (Debjyoti) , 7044315883 (Koyel)"
+  },
+  {
+    "title": "Robo Soccer",
+    "img": "https://i.ibb.co/8XwQsss/Group-1921.png",
+    "description": "",
+    "fee": "Team (max 6 persons) - ₹150",
+    "date": "27th May, 28th May, 29th May (10:00 am - 05:00 pm)",
+    "form": "https://forms.gle/j1Z1EGRKQb9n7TLR7",
+    "slug": "robo-soccer",
+    "prize": 6000,
+    "contact": "9599904224 (Aritra) , 6289399165 (Ayan)"
+  },
+  {
+    "title": "Codedrift 2.0",
+    "img": "https://i.ibb.co/3RSHMb7/Group-1918-3.png",
+    "description": "",
+    "fee": "Per Person - ₹200",
+    "date": "27th May (12:00 pm onwards)",
+    "form": "https://forms.gle/fBHScusAoFQmaYXU8",
+    "slug": "codedrift",
+    "prize": 6000,
+    "contact": "8972081329 (Subhayu) , 7003689835 (Surottoma)"
+  },
+  {
+    "title": "Bridge Building",
+    "img": "https://i.ibb.co/QffW2jY/Group-1944.png",
+    "description": "",
+    "fee": "Team (max 6 persons) - ₹150",
+    "date": "27th May, 28th May (11:00 am - 05:00 pm)",
+    "form": "https://forms.gle/eLXWKjaVd5LP8dUcA",
+    "slug": "bridge-building",
+    "prize": 6000,
+    "contact": "6289275821 (Abhijit) , 7005271827 (Biplab)"
+  },
+  {
+    "title": "Line Of Control",
+    "img": "https://i.ibb.co/1JxPb8Z/Group-1945.png",
+    "description": "",
+    "fee": "Team (max 6 persons) - ₹200",
+    "date": "27th May, 28th May, 29th May (10:00 am - 05:00 pm)",
+    "form": "https://forms.gle/S4dGh8s2fNnGrAEj9",
+    "slug": "line-of-control",
+    "prize": 10000,
+    "contact": "8617750297 (Debgandhar) , 6290318248 (Suchinta)"
+  },
+  {
+    "title": "Model Display",
+    "img": "https://i.ibb.co/JjKf0Wq/Group-1946.png",
+    "description": "",
+    "fee": "Free",
+    "date": "27th May, 28th May, 29th May (10:00 am - 05:00 pm)",
+    "form": "https://forms.gle/aBnXEEQfaiYyQNXQ8",
+    "slug": "model-display",
+    "prize": 6000,
+    "contact": "9073255879 (Roshan) , 7003252433 (Arpita)"
+  },
+  {
+    "title": "Teasure Hunt",
+    "img": "https://i.ibb.co/M7DKKj0/Group-1947.png",
+    "description": "",
+    "fee": "Team (3-5 persons) - ₹50 per person ",
+    "date": "27th May, 28th May, 29th May (10:00 am - 05:00 pm)",
+    "form": "https://forms.gle/JwgaYrgZHMtDyLxa6",
+    "slug": "fun-activity",
+    "prize": 3000,
+    "contact": "8777789617 (Swapnisha) , 6295903552 (Anwesha)"
+  },
+  {
+    "title": "Tech Quiz",
+    "img": "https://i.ibb.co/QJzB6R0/Group-1948.png",
+    "description": "",
+    "fee": "Team of 2 (per person) - ₹25",
+    "date": "27th May, 28th May, 29th May (12:00 pm onwards)",
+    "form": "https://forms.gle/NjvXE8ahsLasmMxf9",
+    "slug": "tech-quiz",
+    "prize": 1500,
+    "contact": "9007080729(Saumya) , 9038858037(Arpita)"
+  },
+  {
+    "title": "Mobile Gaming",
+    "img": "https://i.ibb.co/y6GBTCR/Group-1949-3.png",
+    "description": "",
+    "fee": "PES (per persons) - ₹50, BGMI (per persons) - ₹25, COD (per persons) - ₹25",
+    "date": "27th May, 28th May (12:00 pm onwards)",
+    "form": "https://forms.gle/DKvQR3yeVbksXwaw6",
+    "slug": "mobile-gaming",
+    "prize": 1000,
+    "contact": "798298559 (Ambar) , 6370775459 (Avishek)"
+  },
+  {
+    "title": "Pitch Your Product",
+    "img": "https://i.ibb.co/NLdBcTw/Group-1951-1.png",
+    "description": "",
+    "fee": "₹200",
+    "date": "27th May (09:00 am - 11:00 am)",
+    "form": "https://forms.gle/DKvQR3yeVbksXwaw6",
+    "slug": "pitch-your-product",
+    "prize": 3000,
+    "contact": "6289275821 (Abhijit) , 8777793318 (Soumosree)"
+  },
+  {
+    "title": "Group Discussion",
+    "img": "https://i.ibb.co/xgJRY2c/Group-1953.png",
+    "description": "",
+    "fee": "₹100",
+    "date": "27th May (01:00 pm - 03:00 pm)",
+    "form": "https://forms.gle/UuBjTGaf5RD16U7AA",
+    "slug": "group-discussion",
+    "prize": 2000,
+    "contact": "8768906846 (Ambar) , 6294184951 (Alivia)"
+  },
+  {
+    "title": "Public Speaking",
+    "img": "https://i.ibb.co/hZjrsF1/Group-1954.png",
+    "description": "",
+    "fee": "₹100",
+    "date": "27th May (03:00 pm - 05:00 pm)",
+    "form": "https://forms.gle/698WLsoeuh2Ywb476",
+    "slug": "public-speaking",
+    "prize": 2000,
+    "contact": "9091553707 (Akash) , 9123363689 (Tanya)"
   }
 ]
