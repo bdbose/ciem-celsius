@@ -33,7 +33,7 @@ const dataTechnical = [
   },
   {
     backgroundImg: 'https://i.ibb.co/8XwQsss/Group-1921.png',
-    title: 'ROBO SOCCER',
+    title: 'ROBO CUP',
     url: 'robo-soccer',
   },
   {
