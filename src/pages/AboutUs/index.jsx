@@ -186,6 +186,34 @@ const Pr = [
   },
 ];
 
+const Graphic = [
+  {
+    name: 'Ambar Kundu',
+    img: 'https://i.ibb.co/zVpnx3w/wp1-Shrayan-Bhattacharya-1.png',
+    link: '/',
+  },
+  {
+    name: 'Tridibesh Jha',
+    img: 'https://i.ibb.co/zbtGjv5/Whats-App-Image-2022-05-15-at-9-23-25-PM.jpg',
+    link: '/',
+  },
+  {
+    name: 'Sudipto Das',
+    img: 'https://i.ibb.co/ZcPwNDL/Whats-App-Image-2022-05-15-at-10-23-55-PM.jpg',
+    link: '/',
+  },
+  {
+    name: 'Debgandhar Ghosh',
+    img: 'https://i.ibb.co/MZZxFL5/wp1-Shrayan-Bhattacharya-1-1.png',
+    link: '/',
+  },
+  {
+    name: 'Anik Das',
+    img: 'https://i.ibb.co/tD4Pknf/wp1-Shrayan-Bhattacharya-1-2.png',
+    link: '/',
+  },
+];
+
 const AboutUs = () => {
   var settings = {
     infinite: true,
@@ -227,6 +255,16 @@ const AboutUs = () => {
       </h2>
       <Slider {...settings}>
         {Pr.map((ele) => (
+          <Card key={ele.name} {...ele} />
+        ))}
+      </Slider>
+      <h1>Graphics Team</h1>
+      <h2>
+        The ones making all the pretty pamphlets that you'll see hanging on your
+        notice board
+      </h2>
+      <Slider {...settings}>
+        {Graphic.map((ele) => (
           <Card key={ele.name} {...ele} />
         ))}
       </Slider>
