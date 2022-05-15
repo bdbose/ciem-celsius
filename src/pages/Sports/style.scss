@@ -1,0 +1,69 @@
+.sports-wrapper {
+  position: relative;
+  overflow-y: scroll;
+  background: radial-gradient(
+      50% 50% at 50% 50%,
+      #45124a 0%,
+      rgba(46, 12, 49, 0) 100%
+    ),
+    #2e0c31;
+  height: 100vh;
+  width: 100%;
+  h1 {
+    padding-top: 17vh;
+    margin: auto;
+    text-align: center;
+    font-family: 'Rajdhani';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 61px;
+
+    color: #fff2e4;
+  }
+  .grid-card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    width: 90%;
+    margin: 65px auto;
+    @media screen and (max-width: 1000px) {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    @media screen and (max-width: 800px) {
+      grid-template-columns: 1fr;
+    }
+
+    .card-wrapper {
+      width: calc(100% - 40px);
+      padding: 20px;
+      height: 280px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 10px;
+      font-family: 'Aquire';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 48px;
+      line-height: 42px;
+      color: #ffffff;
+      text-align: center;
+      background-position: center;
+      background-size: cover;
+      transition: 0.3s ease-in-out;
+      &:hover {
+        transform: scale(1.01);
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.359);
+      }
+    }
+  }
+  .sports-banner {
+    width: (90%);
+    margin: auto;
+    display: block;
+    margin-bottom: 100px;
+    border-radius: 10px;
+  }
+}

@@ -34,7 +34,7 @@ const RegisterEvent = () => {
                           textDecoration: 'underline',
                         }}
                         onClick={() => {
-                          window.open('/coming-soon', '_blank');
+                          window.open(ele.description, '_blank');
                         }}>
                         Click Here
                       </span>

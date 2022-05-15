@@ -4,6 +4,8 @@ import Home from './pages/Home';
 import Technical from './pages/Technical';
 import RegisterEvent from './pages/Register';
 import ComingSoon from './pages/soon';
+import Sports from './pages/Sports';
+import SportsPreview from './pages/SportsPreview';
 
 function App() {
   return (
@@ -12,7 +14,8 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/technical' element={<Technical />} />
-          <Route path='/sports' element={<ComingSoon />} />
+          <Route path='/sports' element={<Sports />} />
+          <Route path='/sports-event/:id' element={<SportsPreview />} />
           <Route path='/register/:id' element={<RegisterEvent />} />
           <Route path='/coming-soon' element={<ComingSoon />} />
           <Route path='/*' element={<ComingSoon />} />
