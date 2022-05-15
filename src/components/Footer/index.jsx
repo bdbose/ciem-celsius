@@ -28,13 +28,13 @@ const Footer = () => {
         <div className='footer-container'>
           <h2>Follow</h2>
           <div>
-            <a href='/'>
+            <a href='https://www.facebook.com/ciem.CelsiuS'>
               <Fb />
             </a>
             <a href='/'>
               <Insta />
             </a>
-            <a href='/'>
+            <a href='https://www.linkedin.com/company/ciemcalcutta/'>
               <LinkedIn />
             </a>
           </div>
