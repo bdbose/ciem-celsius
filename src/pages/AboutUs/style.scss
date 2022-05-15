@@ -1,0 +1,78 @@
+.about-us-wrapper {
+  height: 100vh;
+  overflow-y: scroll;
+  background: radial-gradient(
+      50% 50% at 50% 50%,
+      #45124a 0%,
+      rgba(46, 12, 49, 0) 100%
+    ),
+    #2e0c31;
+  background-image: url(https://i.ibb.co/cbB8GBJ/Rectangle-2994.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  .navbar-wrapper {
+    position: relative;
+  }
+  h1 {
+    font-family: 'Rajdhani';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 61px;
+    text-align: center;
+    color: #fff2e4;
+  }
+  .people-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    @media screen and(max-width:900px) {
+      grid-template-columns: 1fr 1fr;
+    }
+    width: 90%;
+    margin: 50px auto;
+    gap: 40px;
+    .people-card {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      cursor: pointer;
+      img {
+        border-radius: 50%;
+        object-fit: cover;
+        width: 166px;
+        height: 166px;
+        margin-bottom: 17px;
+        @media screen and(max-width:800px) {
+          width: 80px;
+          height: 80px;
+        }
+      }
+      h3 {
+        font-family: 'Aquire';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        text-align: center;
+        color: #ffffff;
+        @media screen and(max-width:800px) {
+          font-size: 18px;
+        }
+      }
+      h4 {
+        margin-top: 8px;
+        font-family: 'Aquire';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 19px;
+        text-align: center;
+        color: #ffffff;
+        @media screen and(max-width:800px) {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}
