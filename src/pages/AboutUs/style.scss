@@ -36,6 +36,12 @@
     letter-spacing: 0.02em;
 
     color: #ffffff;
+    @media screen and(max-width:800px) {
+      font-size: 18px;
+      width: 90%;
+      margin: 10px auto;
+      margin-bottom: 48px;
+    }
   }
   .people-wrapper {
     display: grid;
@@ -126,6 +132,9 @@
       line-height: 26px;
       text-align: center;
       color: #ffffff;
+      @media screen and(max-width:800px) {
+        font-size: 12px;
+      }
     }
     h4 {
       font-family: 'Aquire';
@@ -139,7 +148,7 @@
       margin-top: 12px;
       margin-bottom: 8px;
       @media screen and(max-width:800px) {
-        font-size: 12px;
+        font-size: 14px;
       }
     }
   }

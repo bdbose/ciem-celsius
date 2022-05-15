@@ -65,7 +65,7 @@ const Foundation = [
     name: 'Dibyendu Ghosh',
     img: 'https://i.ibb.co/QFYYRXP/wp1-Shrayan-Bhattacharya-1.png',
     des: 'GRAPHICS CO-LEAD',
-    link: 'https://www.linkedin.com/in/bidipto-bose-981b541b6/',
+    link: 'https://www.instagram.com/dibyendu_1000/?hl=en',
     quote: `Righteous, trying to "exactly" do what's beneficial.`,
   },
 ];
