@@ -75,7 +75,7 @@ const Org = [
     name: 'ABHINANDAN MAITY',
     img: 'https://i.ibb.co/8gbFzH4/wp1-Shrayan-Bhattacharya-2.png',
 
-    link: '/',
+    link: 'https://w0.peakpx.com/wallpaper/813/168/HD-wallpaper-anti-2-social-club-anti-social-social-club-design-digital-art.jpg',
   },
   {
     name: 'Hasibul Islam',
@@ -282,7 +282,7 @@ const Card = ({ img, des, name, link, quote }) => {
       onClick={() => {
         window.open(link, '_blank');
       }}>
-      <img src={img} alt='' />
+      <img src={img} alt='' loading='lazy' />
       <h3>
         <Glitch text={name} />
       </h3>
