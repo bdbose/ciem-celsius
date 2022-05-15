@@ -63,7 +63,7 @@ const Foundation = [
   },
   {
     name: 'Dibyendu Ghosh',
-    img: 'https://i.ibb.co/QFYYRXP/wp1-Shrayan-Bhattacharya-1.png',
+    img: 'https://i.ibb.co/yqP1ngZ/PSX-20211115-125525.jpg',
     des: 'GRAPHICS CO-LEAD',
     link: 'https://www.instagram.com/dibyendu_1000/?hl=en',
     quote: `Righteous, trying to "exactly" do what's beneficial.`,
@@ -216,6 +216,29 @@ const Graphic = [
   },
 ];
 
+const Sports = [
+  {
+    img: 'https://i.ibb.co/4dzxbvv/wp1-Shrayan-Bhattacharya-1.png',
+    name: 'Bimlesh Singh',
+    link: '/',
+  },
+  {
+    img: 'https://i.ibb.co/dG1BDHc/wp1-Shrayan-Bhattacharya-1-1.png',
+    name: 'Satyaki Saha',
+    link: '/',
+  },
+  {
+    img: 'https://i.ibb.co/d0vgxKd/wp1-Shrayan-Bhattacharya-1-2.png',
+    name: 'Abhishek Moitra',
+    link: '/',
+  },
+  {
+    img: 'https://i.ibb.co/XDF7Rtx/wp1-Shrayan-Bhattacharya-1-3.png',
+    name: 'Manodeep Maity',
+    link: '/',
+  },
+];
+
 const AboutUs = () => {
   var settings = {
     infinite: true,
@@ -270,6 +293,13 @@ const AboutUs = () => {
           <Card key={ele.name} {...ele} />
         ))}
       </Slider>
+
+      <h1>The Sports Coordinators</h1>
+      <div className='people-wrapper'>
+        {Sports.map((ele) => (
+          <Card key={ele.name} {...ele} />
+        ))}
+      </div>
       <Footer />
     </div>
   );
@@ -281,6 +311,7 @@ const Card = ({ img, des, name, link, quote }) => {
   return (
     <div
       className='people-card'
+      id={name}
       onClick={() => {
         window.open(link, '_blank');
       }}>

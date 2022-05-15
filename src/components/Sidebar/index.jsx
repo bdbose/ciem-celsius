@@ -17,7 +17,7 @@ const Sidebar = ({ open, setOpen }) => {
       className={`sidebar-wrapper ${open && 'active-sidebar'}`}
       onClick={() => {
         sideRef.current.style.width = 0;
-        setTimeout(() => setOpen(false), 1000);
+        setTimeout(() => setOpen(false), 300);
       }}>
       <div ref={sideRef} className={`sidebar`}>
         <a href='/'>Home</a>

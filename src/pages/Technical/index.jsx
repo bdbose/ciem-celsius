@@ -102,7 +102,7 @@ const Technical = () => {
             <Card {...ele} />
           ))}
         </div>
-        <h1>BUSINESS</h1>
+        <h1 id='business'>BUSINESS</h1>
         <div className='grid-card-container'>
           {dataBusiness.map((ele) => (
             <Card {...ele} />
@@ -123,7 +123,8 @@ const Card = ({ title, url, backgroundImg }) => {
       style={{
         backgroundImage: 'url(' + backgroundImg + ')',
       }}
-      className='card-wrapper'>
+      className='card-wrapper'
+      id={title}>
       <Glitch text={title} />
     </NavLink>
   );

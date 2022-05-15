@@ -8,7 +8,7 @@ const Items = [
   { name: 'Home', route: '/' },
   { name: 'Sports', route: '/sports' },
   { name: 'Technical', route: '/technical' },
-  // { name: 'Cultural', route: '/cultural' },
+  { name: 'Cultural', route: '/cultural' },
   { name: 'About Us', route: '/about-us' },
   { name: 'Contact Us', route: '/contact-us' },
 ];

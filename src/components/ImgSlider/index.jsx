@@ -2,12 +2,11 @@ import React, { useEffect, useRef } from 'react';
 import './style.scss';
 
 const arrImage = [
-  'https://images.pexels.com/photos/3861976/pexels-photo-3861976.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-  'https://images.pexels.com/photos/4815143/pexels-photo-4815143.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
-  'https://images.pexels.com/photos/2007647/pexels-photo-2007647.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-  'https://images.pexels.com/photos/2582937/pexels-photo-2582937.jpeg',
-  'https://images.pexels.com/photos/2079432/pexels-photo-2079432.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
-  'https://images.pexels.com/photos/3059052/pexels-photo-3059052.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
+  'https://i.ibb.co/RCw5mL6/Rectangle-22.png',
+  'https://i.ibb.co/KyGKmk6/Rectangle-29.png',
+  'https://i.ibb.co/6gGcj2k/Rectangle-29-1.png',
+  'https://i.ibb.co/q7HMhyM/Rectangle-29-2.png',
+  'https://i.ibb.co/KjGbMCt/Rectangle-29-3.png',
 ];
 
 const ImgSlider = () => {

@@ -16,7 +16,7 @@ import ImgSlider from '../../components/ImgSlider';
 const card = [
   {
     text: 'Hackaton, Robotics, Gaming, Tech Quiz',
-    img: 'https://scontent.fccu3-1.fna.fbcdn.net/v/t1.6435-9/57595599_2315482178724689_999563602744573952_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=cdbe9c&_nc_ohc=s_-SflJOS3IAX_xcnHg&_nc_ht=scontent.fccu3-1.fna&oh=00_AT_gjHEpA4IDBLicm34Nm6d6zjltQ8cIl_jwNrxKcdKw6Q&oe=627FFACC',
+    img: 'https://i.ibb.co/KjGbMCt/Rectangle-29-3.png',
     backgroundColor: '#0D2F61',
     link: '/technical',
     title: 'Technical',
@@ -25,12 +25,12 @@ const card = [
     text: 'Teasure Hunt',
     img: 'https://media.istockphoto.com/vectors/find-treasure-hunt-money-map-vector-id485668170?k=20&m=485668170&s=612x612&w=0&h=QNiYR5oScdxwfNGpOa6PoTPP_ImQvEw5qDkrgRJpl1k=',
     backgroundColor: '#B9401A',
-    link: '/register/fun-activities',
+    link: '/register/fun-activity',
     title: 'Fun Activity',
   },
   {
     text: 'Football, Cricket, Badminton, VolleyBall',
-    img: 'https://scontent.fccu3-1.fna.fbcdn.net/v/t1.6435-9/56947103_2305143476425226_4007328839356121088_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=b2ejc5fS9lYAX_ste-y&_nc_ht=scontent.fccu3-1.fna&oh=00_AT9K5gZ7vKn7siAJJsMsnMdzAa7c1v6qhOkeonVhVOmlKQ&oe=627FB206',
+    img: 'https://i.ibb.co/KyGKmk6/Rectangle-29.png',
     backgroundColor: '#076952',
     link: '/sports',
     title: 'Sports',
@@ -39,7 +39,7 @@ const card = [
     text: 'Pitch, Debate, Group Discussion',
     img: 'https://media.istockphoto.com/photos/business-people-in-seminar-at-auditorium-picture-id959533584?k=20&m=959533584&s=612x612&w=0&h=-HyUuwy5eEoIw_w8vjNRV23l6FP1nAkT40UYWqz1WgA=',
     backgroundColor: '#455966',
-    link: '/technical/#business',
+    link: '/technical#GROUP DISCUSSION',
     title: 'Business',
   },
 ];
@@ -77,7 +77,11 @@ const Home = () => {
             }}>
             Register to events
           </button>
-          <button className='know-more-btn'>Know More</button>
+          <button
+            className='know-more-btn'
+            onClick={() => (window.location.href = '/about-us')}>
+            Know More
+          </button>
         </div>
         <img
           src={'https://i.ibb.co/nQQgV2B/Group-1937.png'}
