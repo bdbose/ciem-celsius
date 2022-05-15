@@ -1,8 +1,11 @@
 import React from 'react';
+import Slider from 'react-slick';
 import Footer from '../../components/Footer';
 import Glitch from '../../components/Glitch';
 import Navbar from '../../components/Navbar';
 import './style.scss';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 
 const People = [
   {
@@ -10,109 +13,223 @@ const People = [
     img: 'https://i.ibb.co/LnDfx2R/wp1-Shrayan-Bhattacharya-2-4.png',
     des: 'Co-ordinator head',
     link: 'https://www.facebook.com/profile.php?id=100004925657113',
+    quote: "He's only here for all the fun.",
   },
   {
     name: 'Amartya Dhar',
     img: 'https://i.ibb.co/rMJrb3L/wp1-Shrayan-Bhattacharya-2-1.png',
     des: 'cultural head',
     link: 'https://www.facebook.com/amartyadhar99/',
+    quote: 'Keeps his panic mode on, always. And a man of culture',
   },
   {
     name: 'Biswajit Karmakar',
     img: 'https://i.ibb.co/Wt7Bs64/wp1-Shrayan-Bhattacharya-2-2.png',
     des: 'technical head',
     link: 'https://www.facebook.com/profile.php?id=100010180446263',
+    quote: 'Very down to earth, with all the cash heaving his pockets. ',
   },
   {
     name: 'Sougata Das',
     img: 'https://i.ibb.co/HBbVJ9L/wp1-Shrayan-Bhattacharya-2-5.png',
     des: 'sports head',
     link: 'https://www.facebook.com/profile.php?id=100005598975883',
+    quote: 'Smiling the pain away, oops.',
+  },
+];
+
+const Foundation = [
+  {
+    name: 'Sharmistha Halder',
+    img: 'https://i.ibb.co/6ttHGC5/wp1-Shrayan-Bhattacharya-2-3.png',
+    des: 'graphics lead',
+    link: 'https://www.facebook.com/sharmistha.halder.3517/',
+    quote:
+      "Stuffing herself in the pile of work alone. Or should I say she's the only one who's opressed here",
   },
   {
     name: 'Bidipto Bose',
     img: 'https://i.ibb.co/LS0ZND0/wp1-Shrayan-Bhattacharya-2-15.png',
     des: 'Technical LEAD (BACKEND)',
     link: 'https://www.linkedin.com/in/bidipto-bose-981b541b6/',
+    quote: `Mastermind of the "amaaaazing" website`,
   },
   {
-    name: 'Sharmistha Halder',
-    img: 'https://i.ibb.co/6ttHGC5/wp1-Shrayan-Bhattacharya-2-3.png',
-    des: 'graphics lead',
-    link: 'https://www.facebook.com/sharmistha.halder.3517/',
+    name: 'Arpita debnath',
+    img: 'https://i.ibb.co/JCqYTZL/Arpita-Di-Rahul-Das.jpg',
+    des: 'PR LEAD',
+    link: 'https://www.instagram.com/a_snorlax_/',
+    quote: `Wanderlust. I mean Literally!`,
   },
+  {
+    name: 'Dibyendu Ghosh',
+    img: 'https://i.ibb.co/QFYYRXP/wp1-Shrayan-Bhattacharya-1.png',
+    des: 'GRAPHICS CO-LEAD',
+    link: 'https://www.linkedin.com/in/bidipto-bose-981b541b6/',
+    quote: `Righteous, trying to "exactly" do what's beneficial.`,
+  },
+];
+
+const Org = [
   {
     name: 'ABHINANDAN MAITY',
     img: 'https://i.ibb.co/8gbFzH4/wp1-Shrayan-Bhattacharya-2.png',
-    des: 'Core',
+
     link: '/',
   },
   {
     name: 'Hasibul Islam',
     img: 'https://i.ibb.co/BrSmM3V/wp1-Shrayan-Bhattacharya-2-12.png',
-    des: 'core',
+
     link: 'https://www.facebook.com/star.hasibul',
   },
   {
     name: 'Pratyush Sarkar',
     img: 'https://i.ibb.co/jwRBnN9/wp1-Shrayan-Bhattacharya-2-13.png',
-    des: 'core',
+
     link: 'https://www.facebook.com/pratyush.sarkar.1650',
   },
   {
     name: 'Rezoana Sultana',
     img: 'https://i.ibb.co/TPhBzjN/wp1-Shrayan-Bhattacharya-2-14.png',
-    des: 'core',
+
     link: 'https://www.facebook.com/rezoana.sultana.543',
   },
   {
     name: 'Soumosree Mondal',
     img: 'https://i.ibb.co/WH5zwbB/wp1-Shrayan-Bhattacharya-2-11.png',
-    des: 'core',
+
     link: 'https://instagram.com/soumosree_mondal?igshid=YmMyMTA2M2Y=',
   },
   {
     name: 'Aman Yadav',
     img: 'https://i.ibb.co/1L4vQXt/wp1-Shrayan-Bhattacharya-2-10.png',
-    des: 'core',
+
     link: 'https://www.instagram.com/amannnyadav/',
   },
   {
     name: 'Ritika Singh',
     img: 'https://i.ibb.co/c1KRjzF/wp1-Shrayan-Bhattacharya-2-9.png',
-    des: 'core',
+
     link: 'https://www.facebook.com/profile.php?id=100018912045384',
   },
   {
     name: 'Biplab Mani Das',
     img: 'https://i.ibb.co/MSs3k3d/wp1-Shrayan-Bhattacharya-2-8.png',
-    des: 'core',
+
     link: 'https://bit.ly/3szFlH6',
   },
   {
     name: 'Ushmita dey',
     img: 'https://i.ibb.co/zhTQ0wb/wp1-Shrayan-Bhattacharya-2-7.png',
-    des: 'core',
+
     link: 'https://www.facebook.com/ushmita.dey.52',
   },
   {
     name: 'SANIA DAS',
     img: 'https://i.ibb.co/4KFKCfS/wp1-Shrayan-Bhattacharya-2-6.png',
-    des: 'core',
+
     link: 'https://www.instagram.com/p/CdiUalzr_tJ/?igshid=MDJmNzVkMjY=',
   },
 ];
 
+const Pr = [
+  {
+    name: 'Pranjali Bose',
+    img: 'https://i.ibb.co/t4T1dxt/image.png',
+    link: '/',
+  },
+  {
+    name: 'Suchinta Chanda',
+    img: 'https://i.ibb.co/2YGKwhy/wp1-Shrayan-Bhattacharya-1-1.png',
+    link: '/',
+  },
+  {
+    name: 'Chandrayee Ghosh',
+    img: 'https://i.ibb.co/kxtDMhn/image.png',
+    link: '/',
+  },
+  {
+    name: 'Deep Kr Sadhukhan',
+    img: 'https://i.ibb.co/vvRSs9M/image.png',
+    link: '/',
+  },
+  {
+    name: 'Devdeep Datta',
+    img: 'https://i.ibb.co/6NSXNvV/image.png',
+    link: '/',
+  },
+  {
+    name: 'Aritra Naharay',
+    img: 'https://i.ibb.co/dmx6Vxp/wp1-Shrayan-Bhattacharya-1-3.png',
+    link: '/',
+  },
+  {
+    name: 'Abir Bhattacharya',
+    img: 'https://i.ibb.co/SBT35BT/image.png',
+    link: '/',
+  },
+  {
+    name: 'Ananya Chatterjee',
+    img: 'https://i.ibb.co/RBSzCMN/wp1-Shrayan-Bhattacharya-1-2.png',
+    link: '/',
+  },
+  {
+    name: 'Abhijit Das',
+    img: 'https://i.ibb.co/tmZFGwH/wp1-Shrayan-Bhattacharya-1-4.png',
+    link: '/',
+  },
+  {
+    name: 'Shreya Hathi',
+    img: 'https://i.ibb.co/ypfhq0W/image.png',
+    link: '/',
+  },
+];
+
 const AboutUs = () => {
+  var settings = {
+    infinite: true,
+    speed: 500,
+    slidesToShow: window.innerWidth > 1100 ? 4 : 2,
+    slidesToScroll: 2,
+    autoplay: true,
+    autoplaySpeed: 2000,
+  };
   return (
     <div className='about-us-wrapper'>
       <Navbar />
-      <h1>About Us</h1>
+      <h1 style={{ marginTop: 0 }}>FOUNDATION</h1>
       <div className='people-wrapper'>
         {People.map((ele) => (
           <Card key={ele.name} {...ele} />
         ))}
       </div>
+      <h1>The ones cementing the foundation</h1>
+      <div className='people-wrapper'>
+        {Foundation.map((ele) => (
+          <Card key={ele.name} {...ele} />
+        ))}
+      </div>
+      <h1>Organising Comittee</h1>
+      <h2>
+        The ones who you will have to contact if you don't find a bottle of
+        water ;)
+      </h2>
+      <Slider {...settings}>
+        {Org.map((ele) => (
+          <Card key={ele.name} {...ele} />
+        ))}
+      </Slider>
+      <h1>PR Team</h1>
+      <h2>
+        The ones letting the world know South Kolkata is about to witness an
+        amazing fest
+      </h2>
+      <Slider {...settings}>
+        {Pr.map((ele) => (
+          <Card key={ele.name} {...ele} />
+        ))}
+      </Slider>
       <Footer />
     </div>
   );
@@ -120,7 +237,7 @@ const AboutUs = () => {
 
 export default AboutUs;
 
-const Card = ({ img, des, name, link }) => {
+const Card = ({ img, des, name, link, quote }) => {
   return (
     <div
       className='people-card'
@@ -132,6 +249,7 @@ const Card = ({ img, des, name, link }) => {
         <Glitch text={name} />
       </h3>
       <h4>{des}</h4>
+      <p>{quote}</p>
     </div>
   );
 };
