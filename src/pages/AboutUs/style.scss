@@ -39,15 +39,16 @@
       justify-content: center;
       cursor: pointer;
       img {
-        border-radius: 50%;
+        border-radius: 80px;
         object-fit: cover;
-        width: 166px;
-        height: 166px;
+        width: 167px;
+        height: 304px;
         margin-bottom: 17px;
-        @media screen and(max-width:800px) {
-          width: 80px;
-          height: 80px;
-        }
+        // @media screen and(max-width:800px) {
+        //   width: 100px;
+        //   height: 180px;
+        //   border-radius: 60px;
+        // }
       }
       h3 {
         font-family: 'Aquire';

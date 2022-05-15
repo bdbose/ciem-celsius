@@ -22,7 +22,7 @@ const Footer = () => {
         <div className='footer-container'>
           <h2>Contact</h2>
           <span>Amartya Dhar - +91 72788 07767</span>
-          <span>Biswajit - +91 86373 36559</span>
+          <span>Biswajit Karmakar - +91 86373 36559</span>
           <span>Sougata Das - +91 80164 48905</span>
         </div>
         <div className='footer-container'>
