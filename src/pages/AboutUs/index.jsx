@@ -148,11 +148,13 @@ const Pr = [
     name: 'Chandrayee Ghosh',
     img: 'https://i.ibb.co/kxtDMhn/image.png',
     link: '/',
+    quote: 'We were forced to write this whole page :(',
   },
   {
     name: 'Deep Kr Sadhukhan',
     img: 'https://i.ibb.co/vvRSs9M/image.png',
     link: '/',
+    quote: 'We were forced to write this whole page :( (2)',
   },
   {
     name: 'Devdeep Datta',
