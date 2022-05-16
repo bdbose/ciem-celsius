@@ -7,6 +7,7 @@ import ComingSoon from './pages/soon';
 import Sports from './pages/Sports';
 import SportsPreview from './pages/SportsPreview';
 import AboutUs from './pages/AboutUs';
+import ContactUs from './pages/ContactUs';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path='/sports-event/:id' element={<SportsPreview />} />
           <Route path='/register/:id' element={<RegisterEvent />} />
           <Route path='/about-us' element={<AboutUs />} />
+          <Route path='/contact-us' element={<ContactUs />} />
           <Route path='/coming-soon' element={<ComingSoon />} />
           <Route path='/*' element={<ComingSoon />} />
         </Routes>

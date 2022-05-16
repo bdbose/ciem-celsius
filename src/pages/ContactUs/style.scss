@@ -1,0 +1,22 @@
+.contact-us-wrapper {
+  height: 100vh;
+  background: radial-gradient(
+      50% 50% at 50% 50%,
+      #45124a 0%,
+      rgba(46, 12, 49, 0) 100%
+    ),
+    #2e0c31;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  h3 {
+    font-family: 'Rajdhani';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 163.1%;
+    text-align: center;
+    color: #fff2e4;
+  }
+}
