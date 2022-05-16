@@ -6,6 +6,7 @@
       rgba(46, 12, 49, 0) 100%
     ),
     #2e0c31;
+  padding: 5%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -18,5 +19,20 @@
     line-height: 163.1%;
     text-align: center;
     color: #fff2e4;
+  }
+  h5 {
+    margin-top: 10px;
+    font-family: 'Teko';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 154.6%;
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: #ffffff;
+    a {
+      text-decoration: underline;
+    }
   }
 }

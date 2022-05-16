@@ -14,7 +14,7 @@ const ContactUs = () => {
     <div className='contact-us-wrapper'>
       <Navbar />
       {data.map((ele) => (
-        <h3>{ele}</h3>
+        <h3 key={ele}>{ele}</h3>
       ))}
       <h5>
         For Further Details and Enquiry mail :

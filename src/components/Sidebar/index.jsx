@@ -24,7 +24,7 @@ const Sidebar = ({ open, setOpen }) => {
         <a href='/sports'>Sports</a>
         <a href='/technical'>Techinal</a>
         <a href='/about-us'>About Us</a>
-        <a href='/contact-us'>Contact US</a>
+        <a href='/contact-us'>Contact Us</a>
       </div>
     </div>
   );
