@@ -10,6 +10,7 @@ import AboutUs from './pages/AboutUs';
 import ContactUs from './pages/ContactUs';
 
 function App() {
+  console.log('MADE BY BIDIPTO BOSE');
   return (
     <div className='App'>
       <BrowserRouter>
