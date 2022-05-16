@@ -68,6 +68,13 @@ const Foundation = [
     link: 'https://www.instagram.com/dibyendu_1000/?hl=en',
     quote: `Righteous, trying to "exactly" do what's beneficial.`,
   },
+  {
+    name: 'Ayush Labh',
+    img: 'https://i.ibb.co/cJ7vzBv/Whats-App-Image-2022-05-16-at-3-25-21-PM-1.jpg',
+    des: '',
+    link: '',
+    quote: ``,
+  },
 ];
 
 const Org = [
@@ -225,6 +232,11 @@ const Sports = [
   {
     img: 'https://i.ibb.co/dG1BDHc/wp1-Shrayan-Bhattacharya-1-1.png',
     name: 'Satyaki Saha',
+    link: '/',
+  },
+  {
+    img: 'https://i.ibb.co/0fvR9Ft/Whats-App-Image-2022-05-14-at-5-17-42-PM-Arnab-Mandal.jpg',
+    name: 'Bikash Pal',
     link: '/',
   },
   {
