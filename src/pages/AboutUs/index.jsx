@@ -242,9 +242,9 @@ const Sports = [
     link: 'https://www.facebook.com/priyaranjan.mahato.338',
   },
   {
-    img: 'https://i.ibb.co/4dzxbvv/wp1-Shrayan-Bhattacharya-1.png',
-    name: 'Bimlesh Singh',
-    link: 'https://instagram.com/anmol_bs?igshid=YmMyMTA2M2Y=',
+    img: 'https://i.ibb.co/4mqg6BT/Ayushman-Rahul-Das.jpg',
+    name: 'Ayushman Deb',
+    link: 'https://www.facebook.com/ayushman.deb.980',
   },
   {
     img: 'https://i.ibb.co/d0vgxKd/wp1-Shrayan-Bhattacharya-1-2.png',
