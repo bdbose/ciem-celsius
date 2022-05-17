@@ -3,7 +3,7 @@ import './style.scss';
 
 import { ReactComponent as Fire } from '../../assets/svg/fire.svg';
 import { ReactComponent as ArrowRight } from '../../assets/svg/arrow-right.svg';
-import CIEM from '../../assets/Image/ciem.png';
+// import CIEM from '../../assets/Image/ciem.png';
 
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
