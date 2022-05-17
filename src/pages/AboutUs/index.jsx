@@ -75,6 +75,13 @@ const Foundation = [
     link: '',
     quote: ``,
   },
+
+  {
+    img: 'https://i.ibb.co/fQ6Hvxx/Whats-App-Image-2022-05-17-at-2-20-02-PM.jpg',
+    name: 'Bikash Pal',
+    link: 'https://www.facebook.com/bikash.paul.9887117',
+    des: 'Sports Head',
+  },
 ];
 
 const Org = [
@@ -225,29 +232,24 @@ const Graphic = [
 
 const Sports = [
   {
+    img: 'https://i.ibb.co/grKhmTn/Whats-App-Image-2022-05-17-at-8-08-10-PM.jpg',
+    name: 'Joydeep Paul',
+    link: 'https://www.facebook.com/joydeep.paul.100',
+  },
+  {
+    img: 'https://i.ibb.co/MGnTCQF/IMG-20220514-WA0023-Priyaranjan-Mahato.jpg',
+    name: 'Priya Ranjan Mahato',
+    link: 'https://www.facebook.com/priyaranjan.mahato.338',
+  },
+  {
     img: 'https://i.ibb.co/4dzxbvv/wp1-Shrayan-Bhattacharya-1.png',
     name: 'Bimlesh Singh',
     link: 'https://instagram.com/anmol_bs?igshid=YmMyMTA2M2Y=',
   },
   {
-    img: 'https://i.ibb.co/dG1BDHc/wp1-Shrayan-Bhattacharya-1-1.png',
-    name: 'Satyaki Saha',
-    link: 'https://www.facebook.com/satyaki.saha.50',
-  },
-  {
-    img: 'https://i.ibb.co/0fvR9Ft/Whats-App-Image-2022-05-14-at-5-17-42-PM-Arnab-Mandal.jpg',
-    name: 'Bikash Pal',
-    link: 'https://www.facebook.com/bikash.paul.9887117',
-  },
-  {
     img: 'https://i.ibb.co/d0vgxKd/wp1-Shrayan-Bhattacharya-1-2.png',
     name: 'Abhishek Moitra',
     link: 'https://www.facebook.com/abhishek.moitra.505',
-  },
-  {
-    img: 'https://i.ibb.co/XDF7Rtx/wp1-Shrayan-Bhattacharya-1-3.png',
-    name: 'Manodeep Maity',
-    link: 'https://www.facebook.com/manodeep.maity.9',
   },
 ];
 
