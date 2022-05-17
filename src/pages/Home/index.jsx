@@ -104,7 +104,13 @@ const Home = () => {
         <div className='ciem-details'>
           <div className='ciem-header'>
             <span>Organised by </span>
-            <img src={CIEM} alt='logo' />
+            <img
+              src={'https://i.ibb.co/kMc2YxQ/Group-2017.png'}
+              style={{
+                width: '150px',
+              }}
+              alt='logo'
+            />
           </div>
           <p>
             CIEM, a leading institute in Eastern India is combating Covid-19
