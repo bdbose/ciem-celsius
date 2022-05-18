@@ -22,7 +22,7 @@ const Sidebar = ({ open, setOpen }) => {
       <div ref={sideRef} className={`sidebar`}>
         <a href='/'>Home</a>
         <a href='/sports'>Sports</a>
-        <a href='/technical'>Techinal</a>
+        <a href='/technical'>Technical</a>
         <a href='/about-us'>About Us</a>
         <a href='/contact-us'>Contact Us</a>
       </div>
