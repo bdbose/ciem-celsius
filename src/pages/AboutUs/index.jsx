@@ -32,7 +32,7 @@ const People = [
   {
     name: 'Sougata Das',
     img: 'https://i.ibb.co/HBbVJ9L/wp1-Shrayan-Bhattacharya-2-5.png',
-    des: 'sports head',
+    des: 'Celsius Convener',
     link: 'https://www.facebook.com/profile.php?id=100005598975883',
     quote: 'Smiling the pain away, oops.',
   },
@@ -78,9 +78,10 @@ const Foundation = [
 
   {
     img: 'https://i.ibb.co/fQ6Hvxx/Whats-App-Image-2022-05-17-at-2-20-02-PM.jpg',
-    name: 'Bikash Pal',
+    name: 'Bikash Paul',
     link: 'https://www.facebook.com/bikash.paul.9887117',
     des: 'Sports Head',
+    quote: 'The person who can play 5 outdoor games at a time.',
   },
 ];
 
