@@ -206,7 +206,7 @@ const Pr = [
 const Graphic = [
   {
     name: 'Ambar Kundu',
-    img: 'https://i.ibb.co/zVpnx3w/wp1-Shrayan-Bhattacharya-1.png',
+    img: 'https://i.ibb.co/m4Rrdh8/image.png',
     link: '/',
   },
   {
