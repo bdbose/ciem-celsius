@@ -71,9 +71,9 @@ const Foundation = [
   {
     name: 'Ayush Labh',
     img: 'https://i.ibb.co/cJ7vzBv/Whats-App-Image-2022-05-16-at-3-25-21-PM-1.jpg',
-    des: '',
-    link: '',
-    quote: ``,
+    des: 'Robotics Team Lead',
+    link: 'https://www.facebook.com/ayush.labh.33',
+    quote: `Beep bop beep bop. Oh sorry one of Ayush's Bots were typing!`,
   },
 
   {
